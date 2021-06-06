@@ -3,21 +3,11 @@ from time import time
 from type_here import TOKEN
 
 print()
-print()
-print("|-------------------------------------------------------------------------------------------------------------------------------------------------------------")
-print("||BBBBBBBBBB      YYYY       YYYY         TTTTTTTTTTTT       0000000        CCCCCCCCCCC     HHHHHH      HHHHHH     KKKKKK         KKKK      AAAAAAAA        ||")
-print("||BBB     BBB      YYYY     YYYY          TTTTTTTTTTTT     0000   0000     CCCCCCCCCCC      HHHHHH      HHHHHH     KKKKKK       KKKKK      AAAAAAAAAAA      ||")
-print("||BBB     BBB       YYYY  YYYY                TTTT         0000   0000     CCCCC            HHHHHH      HHHHHH     KKKKKK      KKKKK      AAAA     AAAA     ||")
-print("||BBBBBBBBBBBB        YYYYYY                  TTTT         0000   0000     CCCCC            HHHHHHHHHHHHHHHHHH     KKKKKK    KKKKK       AAAA       AAAA    ||")
-print("||BBB      BBB         YYYY                   TTTT         0000   0000     CCCCC            HHHHHHHHHHHHHHHHHH     KKKKKKKKKKKKK        AAAAAAAAAAAAAAAAA   ||")
-print("||BBB      BBB         YYYY                   TTTT         0000   0000     CCCCC            HHHHHH      HHHHHH     KKKKKKKKKKKK        AAAAAAAAAAAAAAAAAAA  ||")
-print("||BBB      BBB         YYYY                   TTTT         0000   0000     CCCCCCCCCCC      HHHHHH      HHHHHH     KKKKKK  KKKKK      AAAAA           AAAAA ||")
-print("||BBBBBBBBBBB          YYYY                   TTTT           0000000        CCCCCCCCCCC     HHHHHH      HHHHHH     KKKKKK    KKKKK   AAAAA             AAAAA||")
-print("|------------------------------------------------------------------------------------------------------------------------------------------------------------|")
-print()
+print("Guided by Fsoky (Спасибо тебе Фсоки за то что приносишь знания в интересующие темы для людей.)")
+print("Special thanks to Sepulture for helping me")
 print()
 
-RPC = Presence(TOKEN.APPLICATION)
+RPC = Presence(TOKEN["APPLICATION"])
 btns = [
     {
         "label": TOKEN["FIRST_BTN_NAME"],
