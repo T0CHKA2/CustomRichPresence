@@ -2,10 +2,6 @@ from pypresence import Presence
 from time import time
 from type_here import TOKEN
 
-print()
-print("Guided by Fsoky (Спасибо тебе Фсоки за то что приносишь знания в интересующие темы для людей.)")
-print("Special thanks to Sepulture for helping me")
-print()
 
 RPC = Presence(TOKEN["APPLICATION"])
 btns = [
